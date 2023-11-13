@@ -471,7 +471,7 @@ def model1107meta(query_ru, storage, debug=False, w=120):
         url_links = re.findall(r"https?://[^\s/$.?#].[^\s]*", answer_en_node.node.text)
         additional_info += f"\nПодробная информация: {url_links[0]}"
         additional_info += (
-            f'\n{used_node.split("/")[-1]}. Confidence: {used_node_score:.3f}'
+            f'\n{filename}. Confidence: {used_node_score:.3f}'
         )
         if debug:
             # print(url_links)
