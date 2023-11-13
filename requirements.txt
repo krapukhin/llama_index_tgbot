@@ -1,0 +1,11 @@
+llama-index==0.8.55
+docx==0.2.4
+python-docx==0.8.11
+ipywidgets==8.0.6
+docx2txt==0.8
+deepl==1.15.0
+span-marker==1.5.0
+langchain==0.0.325
+langchainplus-sdk==0.0.4
+langsmith==0.0.53
+openai==0.27.8
